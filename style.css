@@ -63,6 +63,11 @@ h2.subheader  {
     font-size: .5rem;
 }
 
+h2.subheader.hero  {
+    font-size: 1rem;
+    text-transform: none;
+}
+
 h3 {
     font-family: montserrat, sans-serif;
     font-weight: 400;
@@ -128,7 +133,7 @@ p {
     background-position: bottom, center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 35vh;
+    min-height: 70vh;
     margin-top: 0;
     max-height: 100%;
    
@@ -420,13 +425,19 @@ h2.subheader.preview {
     height: 100%;
   }
 
+.button-container{
+    background-color: #141964;
+    display: grid;
+    padding-bottom: 3rem;
+}
+
 .watch-passport {
     display: grid;
-    background-color: #1e4078;
+    background-color: white;
     padding: 1.5rem 3rem 1.5rem 3rem;
-    margin: 1rem auto 1rem auto;
+    margin: 1rem auto 4rem auto;
     min-width: 18rem;
-    
+    justify-content: center;
   
 
     font-family: montserrat, sans-serif;
@@ -434,7 +445,8 @@ h2.subheader.preview {
     font-style: normal;
    
     font-size: 1.5rem;
-    color: white;
+    color: navy;
+    
 
 }
 
@@ -605,7 +617,6 @@ nav {
     align-items: center;
     justify-content: center;
    
-    border-width: 2px;
     grid-gap: 0.25rem;
 }
 
@@ -652,7 +663,7 @@ nav {
         background-position: bottom, center;
         background-repeat: no-repeat;
         background-size: cover;
-        min-height: 100vh;
+        min-height: 90vh;
         margin-top: 0;
         max-height: 100%;
        
@@ -671,6 +682,11 @@ nav {
 
     h2.subheader  {
         font-size: 1.5rem;
+    }
+
+    h2.subheader.hero  {
+        font-size: 1.5rem;
+        text-transform: none;
     }
 
     h1.header.body {
